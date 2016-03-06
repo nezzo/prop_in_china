@@ -14,6 +14,13 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php wp_head(); ?>
+
+	<?php /*Скрипты которые отвечают при нажатии на кнопку "СТАРТ" перекидывало к нужному блоку*/
+	wp_enqueue_script( 'jquery.scrollTo-min', get_template_directory_uri() . '/js/jquery.scrollTo-min.js', array('jquery'));
+	wp_enqueue_script( 'my_script', get_template_directory_uri() . '/js/my_script.js', array('jquery.scrollTo-min'));
+
+	?>
+
 </head>
 <body <?php body_class(); ?>>
 <div id="grid-container">

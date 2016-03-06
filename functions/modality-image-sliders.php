@@ -57,6 +57,11 @@ function modality_unslider_slider() {
 	);?>
 	<div class="clear"></div>
 	<div class="banner">
+		<div class="big_text">CHINA-PROP</div>
+			<div class="small_text">Exchange trading</div>
+		 	<a class="btn btn-default my_butt" role="button" href="#"><div class="start">СТАРТ</div></a>
+
+
 		<ul>
 		<?php while ( $modality_slider_query->have_posts() ): $modality_slider_query->the_post(); ?>
 			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
