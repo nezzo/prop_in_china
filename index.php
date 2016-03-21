@@ -76,7 +76,7 @@ get_header(); ?>
 			
 			if ($modality_theme_options['latest_posts_on'] == '1') {
 			
-				get_template_part( 'content-posts', 'home' );
+				//get_template_part( 'content-posts', 'home' ); овечает за вывод на главной всего контента (посты, поиск, рубрики, вход)
 				
 			}		
 		

@@ -4397,3 +4397,232 @@ h4.sub-title {
 	position: relative;
 	float: left;	
 }
+
+/*My code:)*/
+
+
+
+#navbar ul li a{
+      font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif !important;
+      text-transform: capitalize !important;
+  
+}
+.grafik {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.img_grafik{
+  width:377px
+}
+
+.img_grafik_hover {
+    width: 377px;
+    background: url('/wp-content/themes/chine-prop/images/grafik.png')100% 60% no-repeat;
+    height: 372px;
+    background-size: 100%;
+}
+
+.img_grafik_hover:hover{
+    background: url('/wp-content/themes/chine-prop/images/grafik:hover.png')100% 60% no-repeat;
+    height: 372px;
+    background-size: 100%;
+    width: 377px;
+  
+}
+
+
+a.btn.btn-default.read_more{
+    border-radius: 1px;
+    position: relative;
+    top: 20px;
+    background-color: rgba(241, 104, 118, 1);
+    z-index: 1001;
+    height: 40px;
+  
+}
+
+a.btn.btn-default.read_more:hover{
+  background-color: rgba(248, 178, 185, 1);
+  border: 1px solid rgba(248, 178, 185, 1);
+
+}
+.read_more_text{
+    font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    padding-left: 20px;
+    padding-top: 2px;
+    white-space: nowrap;
+    position: relative;
+    right: 8px;
+    color: white;
+   
+}
+
+.grafik_text {
+    padding-top: 5%;
+    left: 5%;
+    padding-bottom: 5%;
+}
+
+.grafik_text h1{
+  font:normal normal normal 33px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+  color: #2F2E2E;
+  letter-spacing: 2.309999942779541px;
+  text-transform: capitalize;
+  
+}
+
+.grafik_text p{
+  font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #2F2E2E;
+    width: 75%;     
+}
+
+.about {
+    background-color: rgba(179, 191, 231, 0.298039) !important;
+}
+
+.command_img {
+    width: 377px !important;
+    background: url('/wp-content/themes/chine-prop/images/command.png')100% 60% no-repeat;
+    height: 372px ;
+    background-size: 100%;
+}
+
+.command_img:hover{
+    background: url('/wp-content/themes/chine-prop/images/command:hover.png')100% 60% no-repeat;
+    height: 372px;
+    background-size: 100%;
+    width: 377px;
+  
+}
+
+p.command_text {
+    font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif !important;
+    color: #2F2E2E !important;
+    text-align: left;
+    padding-left: 10%;
+    width: 95%;
+}
+
+h2.command_title {
+    font: normal normal normal 33px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif !important;
+    color: #2F2E2E !important;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    letter-spacing: 0.07em;
+    text-transform: capitalize;
+}
+
+.about div{
+  padding: 14px 10px !important;
+  text-align: left !important;
+  
+}
+.command a.btn.btn-default.read_more{
+  border-radius: 1px;
+    position: relative;
+    top: 20px;
+    background-color: rgba(241, 104, 118, 1);
+    z-index: 1001;
+    height: 45px;
+    left: 10%;
+}
+
+.command a.btn.btn-default.read_more:hover{
+  background-color: rgba(248, 178, 185, 1);
+  border: 1px solid rgba(248, 178, 185, 1);
+}
+.command .read_more_text {
+    bottom: 40%;
+    left: 0%;
+}
+
+.my_client {
+    padding-left: 9%;
+    padding-right: 10%;
+}
+.my_client h2 {
+    text-transform: capitalize;
+    font: normal normal normal 26px/1.4em avenir-lt-w01_35-light1475496,sans-serif !important;
+    color: #2F2E2E !important;
+}
+.my_client p{
+  font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif !important;
+    color: #2F2E2E !important;
+    text-align: left !important;
+    width: 60%;
+    padding-bottom: 10%;
+  
+}
+.get-in-touch{
+  background-color: rgba(179, 191, 231, 0.298039) !important;
+}
+
+.last_news_title{
+  text-transform: capitalize;
+  letter-spacing: 6.599999904632568px;
+  font: normal normal normal 33px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif !important;
+  color: #2F2E2E !important;
+  
+}
+
+.last_news {
+    margin-left: 10%;
+    text-align: left;
+}
+.quest {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    
+}
+h2.text_title_quest{
+    font: normal normal normal 33px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif !important;
+    color: #2F2E2E !important;
+    text-align: left;
+    margin-bottom: -15px !important;
+  
+}
+
+.text_quest{
+  font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+  color: #2F2E2E;
+  text-align:left !important;
+}
+
+a.btn.btn-default.quest-btn {
+    border-radius: 1px;
+    position: relative;
+    top: 40px;
+    background-color: rgba(241, 104, 118, 1);
+    z-index: 1001;
+    height: 50px;
+    width: 220px;
+    right: 10%;
+}
+.read_more_text.qu{
+  padding-top: 5px;
+} 
+a.btn.btn-default.quest-btn:hover {
+  background-color: rgba(248, 178, 185, 1);
+  border: 1px solid rgba(248, 178, 185, 1);
+}
+
+
+#footer,#copyright {
+     background-color: #eeeeee !important; 
+}
+#copyright {
+     color:black;
+}
+
+.social {
+  height: 50px;
+}
+
+
+
+
+
+
